@@ -49,7 +49,7 @@ namespace SloppyJoesMenu
             decimal bucks = Randomizer.Next(2, 5);
             decimal cents = Randomizer.Next(1, 98);
             decimal price = bucks + (cents * 0.1m);
-            Price = price.ToString("c");
+            Price = price.ToString("");
         }
     }
 }

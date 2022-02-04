@@ -8,7 +8,7 @@ namespace SloppyJoesMenu
 {
     internal class MenuItem
     {
-        public Random Randomizer = new Random();
+        public static Random Randomizer = new Random();
 
         public string[] Proteins =
         {
